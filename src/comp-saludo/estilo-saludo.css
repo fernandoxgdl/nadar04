@@ -1,19 +1,29 @@
 .saludo{
-    
     text-align: center;
     border-radius: 1px 100px / 100px;
-    font-size: 30px;
-    
     display: flex;
-    justify-content: space-around;
-    font-size: 40px;;
+    justify-content: center;
+    align-items: center;
     color: #696868;
     font-weight: bold;
     margin-bottom: 20px;
+    font-size: 2.5rem; 
 }
 
 span{
-    font-size: 40px;;
+    font-size: 2.5rem;
     color: #696868;
     font-weight: bold;
+}
+
+
+@media (max-width: 768px){
+    .saludo{
+        font-size: 1.8rem;
+        padding: 10px;
+    }
+
+    span{
+        font-size: 1.8rem;
+    }
 }

@@ -1,11 +1,11 @@
 import './nav-bar.css';
-export const Navbar = () => {
+export const Navbar = ({cambiarPagina}) => {
     return(
-    <ul className='nav'>
-       <li>HOME</li>
-       <li>QUIENES <br />SOMOS </li>
-       <li onClick={() => setPagina('contacto')}>CONTACTO</li>
-    </ul>
+    <nav className='nav'>
+       <li onClick={() => cambiarPagina('home')}>HOME</li>
+       <li onClick={() => cambiarPagina('quienes')}>QUIENES <br />SOMOS</li>
+       <li onClick={() => cambiarPagina('contacto')}>CONTACTO</li>
+    </nav>
  )    
 
 }

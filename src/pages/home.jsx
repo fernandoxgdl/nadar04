@@ -1,7 +1,8 @@
 export const Home =()=>{
     return(
         <div>
-            <p>ESTO ES LA PAGINA DE HOME    </p>
+            <h1>BIENVENIDO A LA PAGINA DE HOME</h1>
+            
         </div>
     )
 }
